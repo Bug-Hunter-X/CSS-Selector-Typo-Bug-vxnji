@@ -1,0 +1,15 @@
+The solution is to correct the typo in the class selector.  The corrected CSS should be:
+
+```css
+.list-item {
+  list-style-type: none;
+  padding: 0;
+}
+
+<ul class="list-item">
+  <li>Item 1</li>
+  <li>Item 2</li>
+</ul>
+```
+
+This ensures that the styles are applied correctly to the list elements.
