@@ -1,0 +1,15 @@
+The following CSS code snippet intends to style a list, but it doesn't work as expected due to a typo in the selector:
+
+```css
+.list-items { /* Incorrect selector */
+  list-style-type: none;
+  padding: 0;
+}
+
+<ul class="list-item">
+  <li>Item 1</li>
+  <li>Item 2</li>
+</ul>
+```
+
+The typo is in the class name used in the CSS selector, it should be `list-item` instead of `list-items`.
